@@ -7,7 +7,20 @@ The final catalogue containing the best-fit values of E(B-V) from our SED fittin
 
 To get the color excess E(B-V) 
 
+    >>> from dustmaps.config import config
+    >>> config['data_dir'] = '/path/where/you/want/large/data/files/stored'
+    >>> import dustmaps.chen2021
+    >>> dustmaps.chen2021.fetch()
     >>> from dustmaps.chen2021 import Chen2021SQuery
+    >>> from astropy.coordinates import SkyCoord
+    >>>from astropy import units as u
+    >>>
+    >>> ebv = SFDQuery()
+    >>>
+    >>> c = SkyCoord(ra=80*u.degree,dec=-78.0*u.degree,frame='icrs')
+        
+    >>> ebv(c)
+        0.1967
   
 For details, please refer to https://github.com/gregreen/dustmaps  
     
