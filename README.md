@@ -15,7 +15,7 @@ To get the color excess E(B-V)
     >>> from astropy.coordinates import SkyCoord
     >>> from astropy import units as u
     >>>
-    >>> ebv = SFDQuery()
+    >>> ebv = Chen2021Query()
     >>>
     >>> c = SkyCoord(ra=80*u.degree,dec=-78.0*u.degree,frame='icrs')
         
