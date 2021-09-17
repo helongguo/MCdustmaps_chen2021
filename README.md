@@ -8,6 +8,8 @@ The final catalogue containing the best-fit values of E(B-V) from our SED fittin
 To get the color excess E(B-V) 
 
     >>> from dustmaps.chen2021 import Chen2021SQuery
+  
+For details, please refer to https://github.com/gregreen/dustmaps  
     
 --------------------------------------------------------------------------------
 If you have any questions or need more informations, please send emall to Bingqiu Chen (bchen@ynu.edu.cn) and Helong Guo (helong_guo@mail.ynu.edu.cn).
