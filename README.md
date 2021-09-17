@@ -13,7 +13,7 @@ To get the color excess E(B-V)
     >>> dustmaps.chen2021.fetch()
     >>> from dustmaps.chen2021 import Chen2021SQuery
     >>> from astropy.coordinates import SkyCoord
-    >>>from astropy import units as u
+    >>> from astropy import units as u
     >>>
     >>> ebv = SFDQuery()
     >>>
