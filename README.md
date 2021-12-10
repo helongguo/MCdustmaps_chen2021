@@ -11,7 +11,7 @@ To get the color excess E(B-V)
     >>> config['data_dir'] = '/path/where/you/want/large/data/files/stored'
     >>> import dustmaps.chen2021
     >>> dustmaps.chen2021.fetch()
-    >>> from dustmaps.chen2021 import Chen2021SQuery
+    >>> from dustmaps.chen2021 import Chen2021Query
     >>> from astropy.coordinates import SkyCoord
     >>> from astropy import units as u
     >>>
