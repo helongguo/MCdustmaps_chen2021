@@ -16,7 +16,7 @@ To use our maps, we have provided a pyton procedure 'chen2021.py'. The procedure
 
 The following steps show how to install our procedure:
 1. Install the `dustmaps` package (pip install dustmaps).
-2. Download the procedure 'chen2021.py' in this project and put the procedure in the 'dustmap' directory. 
+2. Download the procedure 'chen2021.py' in this project and put the procedure in the `dustmaps` directory. 
 3. Download the reddening maps (http://paperdata.china-vo.org/diskec/mcdust/mcmap.fits). 
 
 An example is given below to show how to obtain E(B-V) values from our dust maps:
