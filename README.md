@@ -9,7 +9,7 @@ Our reddening maps can be accessed at: http://paperdata.china-vo.org/diskec/mcdu
 The final catalogue containing the best-fit values of E(B-V) from our SED fitting of about 4 million stars can be accessed at: http://paperdata.china-vo.org/diskec/mcdust/starebv.fits
 
 # How to use the maps
-To use our maps， we have provided a pyton procedure 'chen2021.py'. The procedure relies on the dustmaps package (https://github.com/gregreen/dustmaps).
+To use our maps，we have provided a pyton procedure 'chen2021.py'. The procedure relies on the dustmaps package (https://github.com/gregreen/dustmaps).
 
 The following steps show how to install our procedure:
 1. Install the dustmaps package (pip install dustmaps).
