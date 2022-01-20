@@ -12,10 +12,10 @@ The final catalogue containing the best-fit values of E(B-V) from our SED fittin
 
 # How to use the maps
 
-To use our maps, we have provided a pyton procedure 'chen2021.py'. The procedure relies on the dustmaps package (https://github.com/gregreen/dustmaps).
+To use our maps, we have provided a pyton procedure 'chen2021.py'. The procedure relies on the [`dustmaps`] package (https://github.com/gregreen/dustmaps).
 
 The following steps show how to install our procedure:
-1. Install the dustmaps package (pip install dustmaps).
+1. Install the [`dustmaps`] package (pip install dustmaps).
 2. Download the procedure 'chen2021.py' in this project and put the procedure in the 'dustmap' directory. 
 3. Download the reddening maps (http://paperdata.china-vo.org/diskec/mcdust/mcmap.fits). 
 
@@ -45,4 +45,5 @@ If you have any questions or need more informations, please send emall to Bingqi
 
 # Conditions for using the program
 
-The program relies on the [`astropy.coordinates.SkyCoord`](http://docs.astropy.org/en/stable/api/astropy.coordinates.SkyCoord.html#astropy.coordinates.SkyCoord) and [`dustmaps`](https://github.com/gregreen/dustmaps)package. The `dustmaps` package provides a uniform interface for dealing with a number of 2D and 3D maps of interstellar dust reddening/extinction. For details and how to install, please refer to https://github.com/gregreen/dustmaps
+The program relies on the [`astropy.coordinates.SkyCoord`](http://docs.astropy.org/en/stable/api/astropy.coordinates.SkyCoord.html#astropy.coordinates.SkyCoord) and [`dustmaps`](https://github.com/gregreen/dustmaps)package. 
+The `dustmaps` package provides a uniform interface for dealing with a number of 2D and 3D maps of interstellar dust reddening/extinction. For details and how to install, please refer to https://github.com/gregreen/dustmaps
