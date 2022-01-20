@@ -15,8 +15,7 @@ The final catalogue containing the best-fit values of E(B-V) from our SED fittin
 To use our maps, we have provided a pyton procedure 'chen2021.py'. The procedure relies on the `dustmaps` package (https://github.com/gregreen/dustmaps).
 
 The following steps show how to install our procedure:
-1. Install the `dustmaps` package.
-   pip install dustmaps
+1. Install the `dustmaps` package (pip install dustmaps).
 2. Download the procedure 'chen2021.py' in this project and put the procedure in the 'dustmap' directory. 
 3. Download the reddening maps (http://paperdata.china-vo.org/diskec/mcdust/mcmap.fits). 
 
