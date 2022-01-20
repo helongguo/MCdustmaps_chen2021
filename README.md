@@ -33,7 +33,7 @@ An example is given below to show how to obtain E(B-V) values from our dust maps
     >>> c = SkyCoord(ra=ra*u.degree,dec=dec*u.degree,frame='icrs')
         
     >>> ebv(c)
-        array([[0.1967],[0.0327]], dtype=float32) 
+        array([[0.1063],[0.0076]], dtype=float32) 
      
 --------------------------------------------------------------------------------
 If you have any questions or need more informations, please send emall to Bingqiu Chen (bchen@ynu.edu.cn) and Helong Guo (helong_guo@mail.ynu.edu.cn).
