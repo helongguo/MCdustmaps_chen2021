@@ -29,11 +29,9 @@ An example is given below to show how to obtain E(B-V) values from our dust maps
     >>> from astropy import units as u
     >>>
     >>> ebv = Chen2021Query()
-    >>>
     >>> ra = np.array([81.28,12.80])
     >>> dec = np.array([-69.78,-73.15])
-    >>> c = SkyCoord(ra=ra*u.degree,dec=dec*u.degree,frame='icrs')
-        
+    >>> c = SkyCoord(ra=ra*u.degree,dec=dec*u.degree,frame='icrs')  
     >>> ebv(c)
         array([[0.1063],[0.0076]], dtype=float32) 
      
