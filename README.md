@@ -8,7 +8,7 @@ For more details, one can refer to our published paper at https://ui.adsabs.harv
 
 Our reddening maps can be accessed at: http://paperdata.china-vo.org/diskec/mcdust/mcmap.fits
 
-The final catalogue containing the best-fit values of E(B-V) from our SED fitting of about 4 million stars can be accessed at: http://paperdata.china-vo.org/diskec/mcdust/starebv.fits. The Milky Way foreground reddening maps of the area toward the Magellanic Clouds can be accessed at: http:/paperdata. china-vo.org/diskec/mcdust/mmap.fits.
+The final catalogue containing the best-fit values of E(B-V) from our SED fitting of about 4 million stars can be accessed at: http://paperdata.china-vo.org/diskec/mcdust/starebv.fits. The Milky Way foreground reddening maps of the area toward the Magellanic Clouds can be accessed at: http://paperdata.china-vo.org/diskec/mcdust/mwmap.fits 
 # How to use the maps
 
 To use our maps, we have provided a pyton procedure 'chen2021.py'. The procedure relies on the `dustmaps` package (https://github.com/gregreen/dustmaps).
