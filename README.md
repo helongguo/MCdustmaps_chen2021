@@ -38,7 +38,7 @@ An example is given below to show how to obtain E(B-V) values from our dust maps
         array([[0.1063],[0.0076]], dtype=float32) 
      
 --------------------------------------------------------------------------------
-If you have any questions or need more informations, please send emall to Bingqiu Chen (bchen@ynu.edu.cn) and Helong Guo (helong_guo@mail.ynu.edu.cn).
+If you have any questions or need more informations, please send emall to Bingqiu Chen (bchen@ynu.edu.cn) and Helong Guo (hlguo@ynu.edu.cn).
 
 --------------------------------------------------------------------------------
 
